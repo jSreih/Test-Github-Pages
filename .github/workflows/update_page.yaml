@@ -3,7 +3,7 @@ name: Update Page
 on:
   schedule:
     # 17:35 UTC == 1:35pm EDT (UTC-4)
-    - cron: "35 17 * * *"
+    - cron: "40 17 * * *"
   workflow_dispatch: {} # allow manual runs from the Actions tab
 
 permissions:
