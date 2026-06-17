@@ -2,12 +2,12 @@ name: Update Page
 
 on:
   schedule:
-    # 17:35 UTC == 1:35pm EDT (UTC-4)
-    - cron: "40 17 * * *"
-  workflow_dispatch: {} # allow manual runs from the Actions tab
+    # 06:03 UTC == 2:03 am EDT (UTC-4)
+    - cron: "3 6 * * *"
+  workflow_dispatch: {} 
 
 permissions:
-  contents: write # needed to commit the updated index.html
+  contents: write 
 
 jobs:
   update:
